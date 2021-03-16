@@ -43,6 +43,10 @@ module.exports = {
             {
                 test: /\.ttf$/,
                 use: "file-loader"
+            },
+            {
+                test: /\.png$/,
+                use: "file-loader"
             }
         ]
     }
